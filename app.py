@@ -1,6 +1,5 @@
 """Flask app for adopt app."""
 
-from re import template
 from flask import Flask, url_for, render_template, redirect, flash, jsonify
 
 from flask_debugtoolbar import DebugToolbarExtension
